@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 1.3</title>
+</head>
+<body>
+<!--JS-->
+<script>
+  let a = +prompt("nhap a");
+  let b = +prompt("nhap b");
+  let sum = 0;
+  if (a > b ) {
+    for (let i = b; i <= a; i++){
+      sum += i
+    }
+  } else {
+    for (let i = a; i <= b; i++){
+      sum += i
+    }
+  }
+  document.write(`Tong cac so tu ${a} den ${b} la: ${sum}`)
+</script>
+</body>
+</html>
